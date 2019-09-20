@@ -1,5 +1,4 @@
 import React from 'react';
-import Modalcalendar from './Modalcalendar';
 
 function getDate(date){
     let currdate=new Date();
