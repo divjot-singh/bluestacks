@@ -75,7 +75,7 @@ export default class Campaign extends React.Component{
                             return new Date(item.date) -currentdate < 0;
                         }
                         else if(this.state.currentView === "live"){
-                            return item.date === "20-09-2019"
+                            return item.date === "2019-09-20"
                         }
                     }).map((item,index) => {
                         return <Listitem key={index} id={index} item={item} changeValue={this.changeValue} showModal={this.showModal}/>
